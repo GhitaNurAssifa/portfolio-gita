@@ -9,7 +9,9 @@ body {
   font-size: 16px;
   font-family: "Nunito Sans", sans-serif;
   scroll-behavior: smooth;
-  background-color: #dedede;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  color: #222831;
+  min-height: 100vh;
 }
 .wrapper {
   width: 1024px;
@@ -18,7 +20,13 @@ body {
 }
 
 section {
-  padding: 50px 0px 50px 0px;
+  padding: 50px 0px;
+  background: rgba(255, 255, 255, 0.4); /* transparan putih */
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
 }
 
 .wrapper > h3,

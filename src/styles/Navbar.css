@@ -1,11 +1,13 @@
 nav {
-  background-color: #222831;
-  color: #fff;
+  background-color: #f0f4f8; /* NAVBAR LATAR TERANG */
+  color: #1e293b; /* Warna teks jadi abu tua */
   position: sticky;
   top: 0;
   z-index: 100;
   text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* tambahkan shadow biar elegan */
 }
+
 nav > .wrapper {
   display: flex;
   justify-content: space-between;
@@ -21,12 +23,13 @@ nav > .wrapper {
   align-items: center;
 }
 .logo > a {
-  color: #fff;
+  color: #0f172a; /* TEKS LOGO LEBIH GELAP */
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 900;
   letter-spacing: 8px;
 }
+
 .menu > ul {
   display: flex;
   list-style-type: none;
@@ -37,8 +40,13 @@ nav > .wrapper {
 
 .menu > ul > li > a {
   text-decoration: none;
-  color: #fff;
+  color: #1e293b; /* teks menu */
+  font-weight: 600;
 }
+.menu > ul > li > a:hover {
+  color: #0ea5e9; /* efek hover: biru terang */
+}
+
 nav > .wrapper > button {
   cursor: pointer;
   display: none;
@@ -50,9 +58,10 @@ nav > .wrapper > button {
   padding: 0px;
 }
 nav > .wrapper > button > svg {
-  color: #fff;
+  color: #0f172a; /* warna ikon burger */
   font-size: 50px;
 }
+
 @media only screen and (max-width: 1000px) {
   .menu > ul {
     display: none;
@@ -68,7 +77,7 @@ nav > .wrapper > button > svg {
   }
   .menu > ul {
     flex-direction: column;
-    background-color: #000;
+    background-color: #e2e8f0; /* latar dropdown terang */
     width: 100%;
     position: fixed;
     top: 70px;
@@ -84,6 +93,6 @@ nav > .wrapper > button > svg {
     width: 100%;
   }
   .menu > ul > li > a:hover {
-    background-color: #222831;
+    background-color: #cbd5e1; /* hover terang */
   }
 }

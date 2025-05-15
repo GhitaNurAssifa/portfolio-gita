@@ -1,7 +1,7 @@
 footer {
-  background-color: #39404a;
+  background: linear-gradient(135deg, #f0f4ff, #d1e3ff); /* gradiens warna terang */
   text-align: center;
   line-height: 100px;
-  color: #fff;
+  color: #000000;
   letter-spacing: 5px;
 }

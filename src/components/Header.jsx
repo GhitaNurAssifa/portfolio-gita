@@ -1,8 +1,8 @@
 import profilePicture from '../assets/profile-picture.png'
 import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
+//import { FaTwitter } from "react-icons/fa";//
+//import { FaFacebookF } from "react-icons/fa";   //
 import '../styles/Header.css'
 function Header() {
     return (
@@ -12,8 +12,12 @@ function Header() {
                 <h3>Ghita Nur Assifa</h3>
                 <p>Desain Grafis</p>
                 <div className='socialMedia'>
-                    <a href=''><FaInstagram /></a>
-                    <a href=''><FaTiktok /></a>
+                    <a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer">
+                    <FaInstagram />
+                    </a>
+                    <a href="https://tiktok.com/@username" target="_blank" rel="noopener noreferrer">
+                    <FaTiktok />
+                    </a>
                 </div>
             </div>
         </header>
