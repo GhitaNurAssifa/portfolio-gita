@@ -17,51 +17,36 @@ function Experience() {
         <>
             <Navbar />
             <div className="wrapper">
-                <h1>Pendidikan</h1>
+                <h1>Pengalaman</h1>
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="2010 - 2016"
+                        date="2022 - 2023"
                         iconStyle={{ background: '#222831', color: '#fff' }}
                         icon={<RiNextjsFill />}
                     >
-                        <h3 className="vertical-timeline-element-title">Sekolah Dasar</h3>
-                        <h4 className="vertical-timeline-element-subtitle">SDN Juntihilir 04</h4>
+                        <h3 className="vertical-timeline-element-title">Membuat Web Site</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Toko Online</h4>
                         
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="2016 - 2019"
+                        date="2023 - 2024"
                         iconStyle={{ background: '#222831', color: '#fff' }}
                         icon={<FaVuejs />}
                     >
-                        <h3 className="vertical-timeline-element-title">Sekolah Menengah Pertama</h3>
-                        <h4 className="vertical-timeline-element-subtitle">SMP NEGRI 13 TASIKMALAYA</h4>
+                        <h3 className="vertical-timeline-element-title">Web Site</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Perpustakaan Online</h4>
                        
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="2019 - 2022"
+                        date="2024 - Now"
                         iconStyle={{ background: '#222831', color: '#fff' }}
                         icon={<FaReact />}
                     >
-                        <h3 className="vertical-timeline-element-title">Sekolah Menengah Kejuruan</h3>
-                        <h4 className="vertical-timeline-element-subtitle">SMK KP 2 MARGAHAYU</h4>
-                        <p>
-                            Jurusan : Teknik Komputer & Jaringan
-                        </p>
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        date="2022 - now"
-                        iconStyle={{ background: '#222831', color: '#fff' }}
-                        icon={<FaLaravel />}
-                    >
-                        <h3 className="vertical-timeline-element-title">Kuliah</h3>
-                        <h4 className="vertical-timeline-element-subtitle">STMIK MARDIRA INDONESIA</h4>
-                        <p>
-                            Prodi : Teknik Informatika S1
-                        </p>
+                        <h3 className="vertical-timeline-element-title">Absensi Sekolah</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Berbasis QR Code</h4>
                     </VerticalTimelineElement>
                 </VerticalTimeline>
             </div>

@@ -7,39 +7,39 @@ import portfolio6 from '../assets/portfolio6.png'
 
 export const portfolioList = [
     {
-        id: '1',
-        title: 'Website Portfolio #1',
+        id: 'profile',
+        title: 'Identitas Diri',
         image: portfolio1,
-        skill: 'reactjs, html, css, express, php'
+        description: 'Nama Lengkap: Ghita Nur Assifa, Panggilan: Ghita, Umur: 20 tahun, Tempat Tanggal Lahir: Bandung, 20 Agustus 2004'
     },
     {
-        id: '2',
-        title: 'Website Portfolio #2',
+        id: 'contact',
+        title: 'Kontak & Email',
         image: portfolio2,
-        skill: 'reactjs, html, css, express, php'
+        description: 'Nomor HP: 08812048681, Email: nurassifaghita@email.com'
     },
     {
-        id: '3',
-        title: 'Website Portfolio #3',
+        id: 'pendidikan',
+        title: 'Pendidikan',
         image: portfolio3,
-        skill: 'reactjs, html, css, express, php'
+        description: ' Tahun Ajaran : SDN (2010 - 2016), SMP (2016 - 2019), SMK (2019 - 2022)'
     },
     {
-        id: '4',
-        title: 'Website Portfolio #4',
+        id: 'hobi',
+        title: 'Hobi',
         image: portfolio4,
-        skill: 'reactjs, html, css, express, php'
+        description: 'Membaca Novel, Mendengarkan Musik, Bernyanyi, Bermain Game, Olahraga'
     },
     {
-        id: '5',
-        title: 'Website Portfolio #5',
+        id: 'Pengalaman Kerja',
+        title: 'Pengalaman Kerja',
         image: portfolio5,
-        skill: 'reactjs, html, css, express, php'
+        description: '"PKL di PT Telkom Akses Lembong Bandung, Barista, Affiliate."'
     },
     {
-        id: '6',
-        title: 'Website Portfolio #6',
+        id: 'Motivasi',
+        title: 'Motivasi',
         image: portfolio6,
-        skill: 'reactjs, html, css, express, php, Laravel'
+        description: '"Saya percaya bahwa setiap tantangan adalah peluang untuk tumbuh dan belajar sesuatu yang baru."'
     },
 ]
