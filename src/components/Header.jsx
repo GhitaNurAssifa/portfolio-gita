@@ -12,7 +12,7 @@ function Header() {
                 <h3>Ghita Nur Assifa</h3>
                 <p>Desain Grafis</p>
                 <div className='socialMedia'>
-                    <a href="https://https://www.instagram.com/akughitaaaa?igsh=MTViOG5rcW9nYXZ2NQ==" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/gghitaa20?igsh=Y2VkeWJncnhqbzhk" target="_blank" rel="noopener noreferrer">
                     <FaInstagram />
                     </a>
                     <a href="https://tiktok.com/@akughitaa" target="_blank" rel="noopener noreferrer">
