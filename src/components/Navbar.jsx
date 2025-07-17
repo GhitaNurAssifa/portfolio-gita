@@ -30,8 +30,8 @@ function Navbar() {
                 <div className={`menu ${statusTampil}`} onClick={tampilMenu}>
                     <ul>
                         <li><HashLink to="/#portfolio">Portfolio</HashLink></li>
-                        <li><HashLink to="/#about">About</HashLink></li>
-                        <li><Link to="/experience">Experience</Link></li>
+                        <li><HashLink to="/#about">About Me</HashLink></li>
+                        <li><Link to="/experience">Work Experience</Link></li>
                     </ul>
                 </div>
             </div>

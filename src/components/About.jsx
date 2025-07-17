@@ -12,11 +12,19 @@ function About() {
     return (
         <section id="about">
             <div className='wrapper'>
-                <h3>Tentang Saya</h3>
-                <p>Saya adalah seorang yang memiliki ketertarikan tinggi pada bidang desain grafis dan administrasi perkantoran. Terampil dalam menggunakan berbagai tools desain grafis dan mahir dalam Microsoft Office (Word, Excel, PowerPoint). Saya percaya bahwa kreativitas dan ketelitian adalah kunci untuk menciptakan hasil kerja yang berkualitas.</p>
+                <h3>About Me</h3>
+                <p>Saya seorang mahasiswi aktif semester 6 dengan
+program studi Teknik Informatika di STMIK MARDIRA INDONESIA yang berada di Bandung , Saya aktif dalam
+mengembangkan diri pada bidang informatika dan
+Desain Grafis. Memiliki kemampuan Interpersonal
+yang baik seperti komunikasi , disiplin,kerja sama
+tim dan juga berani untuk mencoba tantangan
+baru serta mudah beradaptasi dengan lingkungan
+pekerjaan
+</p>
                 <h4>Bahasa Pemrograman</h4>
                 <div className="skills">
-                    <FaPhp /><FaHtml5 /><SiJavascript /><FaReact /><MdOutlineCss />
+                    <FaPhp />
                     <FaBootstrap /><FaLaravel /><FaGit />
 
                 </div>
