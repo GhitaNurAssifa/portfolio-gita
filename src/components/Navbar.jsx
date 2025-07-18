@@ -28,12 +28,20 @@ function Navbar() {
                     }
                 </button>
                 <div className={`menu ${statusTampil}`} onClick={tampilMenu}>
-                    <ul>
-                        <li><HashLink to="/#portfolio">Portfolio</HashLink></li>
-                        <li><HashLink to="/#about">About Me</HashLink></li>
-                        <li><Link to="/experience">Work Experience</Link></li>
-                        <li><HashLink to="/#sistempakar">Sistem Pakar</HashLink></li>
-                    </ul>
+                   <ul>
+                    <li>
+                        <HashLink to="/#portfolio">Portfolio</HashLink>
+                    </li>
+                    <li>
+                        <HashLink to="/#about">About Me</HashLink>
+                    </li>
+                    <li>
+                        <Link to="/experience">Work Experience</Link>
+                    </li>
+                    <li>
+                        <Link to="/#sistempakar">Sistem Pakar</Link>
+                    </li>
+                    </ul>  
                 </div>
             </div>
         </nav>
