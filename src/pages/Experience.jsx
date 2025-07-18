@@ -59,7 +59,7 @@ mengakses kehadiran</h4>
                         icon={<FaReact />}
                     >
                         <h3 className="vertical-timeline-element-title">Komisi Pemilihan Umum</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Anggota Kpps & Sirekap, utuk posisi ini saya terlibat dalam penulisan surat
+                        <h4 className="vertical-timeline-element-subtitle">Anggota Kpps & Sirekap, untuk posisi ini saya terlibat dalam penulisan surat
 suara dan sistem sirekap serta mengawasi dan
 memastikan keakuratan dan keamanan data.
 Setelah itu saya membuat laporan rekapitulasi hasil
