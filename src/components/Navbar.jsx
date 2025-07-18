@@ -32,6 +32,7 @@ function Navbar() {
                         <li><HashLink to="/#portfolio">Portfolio</HashLink></li>
                         <li><HashLink to="/#about">About Me</HashLink></li>
                         <li><Link to="/experience">Work Experience</Link></li>
+                        <li><HashLink to="/#sistempakar">Sistem Pakar</HashLink></li>
                     </ul>
                 </div>
             </div>
