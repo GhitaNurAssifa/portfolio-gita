@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to bottom, #1e1e2f, #3b3b5f);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://i.ibb.co/qkd6twB/bg-astro.jpg'); /* kamu bisa ganti gambar background ini */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+    width: 90%;
+    max-width: 450px;
+}
+
+.form-box h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffd700;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: #ddd;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+}
+
+form input::placeholder {
+    color: #ccc;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffd700;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffcc00;
+}
