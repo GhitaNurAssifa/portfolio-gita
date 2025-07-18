@@ -15,3 +15,43 @@
     grid-template-columns: 45% 45%;
   }
 }
+/* ==== GRID WRAPPER ==== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* ==== ITEM STYLE ==== */
+.grid > .item {
+  overflow: hidden;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+.grid > .item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ==== IMAGE STYLE ==== */
+.grid > .item > a > img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+.grid > .item > a:hover img {
+  transform: scale(1.05);
+}
+
+/* ==== RESPONSIVE ADJUSTMENTS ==== */
+@media only screen and (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}

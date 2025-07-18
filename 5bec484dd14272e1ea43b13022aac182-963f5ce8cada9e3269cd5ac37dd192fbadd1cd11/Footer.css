@@ -1,13 +1,23 @@
 footer {
-  background-color: #e2e8f0; /* Warna latar terang */
+  background: linear-gradient(135deg, #e2e8f0, #cbd5e1); /* gradasi lembut */
   text-align: center;
   line-height: 100px;
-  color: #1e293b; /* Teks jadi lebih gelap agar kontras */
+  color: #1e293b; /* abu gelap */
   letter-spacing: 5px;
-  border-top: 1px solid #cbd5e1; /* Garis pemisah halus di atas */
+  border-top: 2px solid #94a3b8; /* garis pemisah lebih tajam */
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.05); /* bayangan halus ke atas */
+  font-family: "Kanit", sans-serif;
+  transition: background 0.5s ease-in-out;
 }
+
 footer > p {
   margin: 0;
   padding: 0;
-  font-size: 1.2rem; /* Ukuran font lebih besar */
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+footer:hover {
+  background: linear-gradient(135deg, #dbeafe, #bfdbfe); /* efek hover: biru muda */
+  color: #0f172a; /* teks sedikit lebih pekat saat hover */
 }

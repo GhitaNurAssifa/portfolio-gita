@@ -16,7 +16,110 @@ nav > .wrapper {
   width: 35%;
 }
 
+.logo {nav {
+  background-color: #222831;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  text-transform: uppercase;
+}
+
+nav > .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Tambahkan padding agar tidak mepet */
+}
+
+.menu {
+  width: 35%;
+}
+
 .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 8px;
+}
+
+.menu > ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.menu > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav > .wrapper > button {
+  cursor: pointer;
+  display: none;
+  border: none;
+  background-color: transparent;
+  padding: 10px; /* Tambahkan padding */
+  margin-right: 10px; /* Tambahan untuk jarak kanan */
+  margin-top: 5px;     /* Tambahan untuk jarak atas */
+}
+
+nav > .wrapper > button > svg {
+  color: #fff;
+  font-size: 36px; /* Ukuran lebih proporsional */
+}
+
+@media only screen and (max-width: 1000px) {
+  .menu > ul {
+    display: none;
+  }
+
+  .menu.tampil > ul {
+    display: inline;
+  }
+
+  .menu {
+    text-align: right;
+  }
+
+  nav > .wrapper > button {
+    display: inline;
+  }
+
+  .menu > ul {
+    flex-direction: column;
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+    top: 70px;
+    left: 0;
+  }
+
+  .menu > ul > li {
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .menu > ul > li > a {
+    display: inline-block;
+    padding: 15px 20px 15px 50px;
+    width: 100%;
+  }
+
+  .menu > ul > li > a:hover {
+    background-color: #222831;
+  }
+}
+
+
   display: flex;
   align-items: center;
 }

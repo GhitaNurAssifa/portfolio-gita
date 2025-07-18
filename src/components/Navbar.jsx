@@ -20,7 +20,7 @@ function Navbar() {
         <nav>
             <div className="wrapper">
                 <div className="logo">
-                    <Link to="/">Ghita</Link>
+                    <Link to="/">Selamat Datang</Link>
                 </div>
                 <button onClick={tampilMenu}>
                     {
@@ -33,13 +33,13 @@ function Navbar() {
                         <HashLink to="/#portfolio">Portfolio</HashLink>
                     </li>
                     <li>
-                        <HashLink to="/#about">About Me</HashLink>
+                        <HashLink to="/#about">About</HashLink>
                     </li>
                     <li>
-                        <Link to="/experience">Work Experience</Link>
+                        <Link to="/experience">Experience</Link>
                     </li>
                     <li>
-                        <Link to="/#sistempakar">Sistem Pakar</Link>
+                        <Link to="/SistemPakar">Sistem Pakar</Link>
                     </li>
                     </ul>  
                 </div>

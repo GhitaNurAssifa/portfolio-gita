@@ -1,7 +1,31 @@
 footer {
-  background: linear-gradient(135deg, #f0f4ff, #d1e3ff); /* gradiens warna terang */
+  background: linear-gradient(135deg, #d1e3ff, #f0f4ff); /* gradiens lembut */
+  color: #1e2a38;
   text-align: center;
-  line-height: 100px;
-  color: #000000;
-  letter-spacing: 5px;
+  padding: 40px 20px;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  position: relative;
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.05);
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #4bc0ff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+footer span {
+  display: block;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #555;
 }
